@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  background-color: #ff8c00;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 17;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+input[type="file"]:hover {
+  background-color: #e67e00;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+  font-size: 17;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+}
+
+table thead {
+  background-color: #f7f7f7;
+}
